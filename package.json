@@ -2,10 +2,10 @@
   "name": "html-css-class-completion",
   "displayName": "IntelliSense for CSS class names in HTML",
   "description": "CSS class name completion for the HTML class attribute based on the definitions found in your workspace.",
-  "version": "1.20.0",
-  "publisher": "Zignd",
+  "version": "1.21.0",
+  "publisher": "LeaderbotX400",
   "engines": {
-    "vscode": "^1.52.0"
+    "vscode": "^1.86.2"
   },
   "keywords": [
     "html",
@@ -89,7 +89,7 @@
   },
   "icon": "images/icon.png",
   "repository": {
-    "url": "https://github.com/Zignd/HTML-CSS-Class-Completion"
+    "url": "https://github.com/LeaderbotX400/HTML-CSS-Class-Completion"
   },
   "main": "./dist/extension.js",
   "scripts": {
@@ -105,31 +105,30 @@
   },
   "devDependencies": {
     "@types/bluebird": "^3.5.42",
-    "@types/css": "0.0.31",
-    "@types/glob": "^7.2.0",
+    "@types/css": "0.0.37",
+    "@types/glob": "^8.1.0",
     "@types/htmlparser2": "^3.10.7",
     "@types/lodash": "^4.14.202",
-    "@types/mocha": "^8.2.3",
-    "@types/node": "^12.20.55",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "^20.11.20",
     "@types/request": "^2.48.12",
     "@types/request-promise": "^4.1.51",
     "@types/verror": "^1.10.9",
     "@types/vscode": "^1.86.0",
-    "@typescript-eslint/eslint-plugin": "^4.33.0",
-    "@typescript-eslint/parser": "^4.33.0",
-    "eslint": "^7.32.0",
-    "glob": "^7.2.3",
-    "mocha": "^8.4.0",
-    "ts-loader": "^8.4.0",
-    "typescript": "^4.9.5",
+    "@typescript-eslint/eslint-plugin": "^7.0.2",
+    "@typescript-eslint/parser": "^7.0.2",
+    "eslint": "^8.57.0",
+    "glob": "^10.3.10",
+    "mocha": "^10.3.0",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.3.3",
     "vscode-test": "^1.6.1",
-    "webpack": "^5.90.3",
-    "webpack-cli": "^4.10.0"
+    "webpack": "^5.90.3"
   },
   "dependencies": {
     "bluebird": "^3.7.2",
     "css": "^3.0.0",
-    "htmlparser2": "^6.1.0",
+    "htmlparser2": "^9.1.0",
     "lodash": "^4.17.21",
     "request": "^2.88.2",
     "request-promise": "^4.2.6",
